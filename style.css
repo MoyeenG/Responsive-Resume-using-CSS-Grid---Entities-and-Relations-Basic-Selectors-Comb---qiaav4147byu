@@ -7,3 +7,127 @@
 }
 
 /* Write CSS code below */
+
+main.main-content {
+    width: 90%;
+    display : grid;
+    grid-template-columns : 300px 700px;
+    min-height: 1000px;
+}
+
+section.left-section {
+    background-color: rgb(177, 107, 107);
+    max-width: 300px;
+    grid-column-start: 1 / 2;
+}
+
+section.right-section {
+    max-width: 90%;
+    grid-column-start : 2 / 3;
+}
+
+.left-content {
+    padding: 1rem;
+}
+
+.profile-image {
+    display : block;
+    margin: auto;
+    border : 5px solid white;
+    border-radius: 30%;
+    width : 60%;
+}
+
+.name {
+    text-align: center;
+    letter-spacing: 0.02px;
+    text-transform: uppercase;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.designation {
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+
+.description {
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* .contact-item {
+    display: flex;
+    justify-content: center;
+} */
+
+/* .linkedin-github {
+    display: flex;
+    justify-content: center;
+} */
+
+.linkedin-github {
+    text-align: center;
+}
+
+a.icon {
+    /* display: inline-block; */
+    /* align-: center; */
+    color: rgb(52, 49, 66);
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.icon2 {
+    /* text-align: center; */
+    color: rgb(52, 49, 66);
+}
+
+.skills {
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding : 1rem 0.5rem;
+}
+
+.skill-name {
+    font-size: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+
+.progress-bar {
+    border: 1px solid white;
+    height: 4px;
+}
+
+.right-main-content {
+    padding: 2rem 3rem;
+}
+
+.right-title {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.right-main-content p {
+    padding: 0.5rem;
+}
+
+@media screen and (max-width: 673px){
+    main.main-content {
+        grid-template-columns : repeat(1, 1fr);
+    }
+    
+    /* section.left-section {
+        margin-left: auto;
+        margin-right: auto;
+    } */
+}
