@@ -23,6 +23,7 @@ main.main-content {
 
 .right-section {
     /* max-width: 90%; */
+    max-width: 700px;
     grid-column-start : 2 / 3;
 }
 
