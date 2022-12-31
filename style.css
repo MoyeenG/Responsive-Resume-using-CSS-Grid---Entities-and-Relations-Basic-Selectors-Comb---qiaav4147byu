@@ -18,13 +18,13 @@ main.main-content {
 .left-section {
     background-color: rgb(177, 107, 107);
     max-width: 300px;
-    grid-column-start: 1 / 2;
+    grid-column-start: 1 / span 1;
 }
 
 .right-section {
-    /* max-width: 90%; */
-    max-width: 700px;
-    grid-column-start : 2 / 3;
+    width: 90%;
+    /* max-width: 700px; */
+    grid-column-start : 2 / span 1;
 }
 
 .left-content {
