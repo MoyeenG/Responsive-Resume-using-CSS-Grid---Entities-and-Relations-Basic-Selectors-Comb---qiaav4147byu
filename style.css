@@ -15,13 +15,13 @@ main.main-content {
     min-height: 1000px;
 }
 
-section.left-section {
+.left-section {
     background-color: rgb(177, 107, 107);
     max-width: 300px;
     grid-column-start: 1 / 2;
 }
 
-section.right-section {
+.right-section {
     max-width: 90%;
     grid-column-start : 2 / 3;
 }
