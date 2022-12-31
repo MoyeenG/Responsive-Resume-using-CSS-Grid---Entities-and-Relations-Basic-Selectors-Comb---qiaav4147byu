@@ -8,7 +8,7 @@
 
 /* Write CSS code below */
 
-main.main-content {
+.main-content {
     width: 90%;
     display : grid;
     grid-template-columns : 300px 700px;
@@ -22,8 +22,8 @@ main.main-content {
 }
 
 .right-section {
-    width: 90%;
-    /* max-width: 700px; */
+    /* width: 90%; */
+    max-width: 700px;
     grid-column : 2 / span 1;
 }
 
@@ -123,12 +123,7 @@ a.icon {
 }
 
 @media screen and (max-width: 673px){
-    main.main-content {
+    .main-content {
         grid-template-columns : repeat(1, 1fr);
     }
-    
-    /* section.left-section {
-        margin-left: auto;
-        margin-right: auto;
-    } */
 }
