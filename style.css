@@ -9,6 +9,7 @@
 /* Write CSS code below */
 
 main.main-content {
+    justify-content: center;
     display : grid;
     /* width: 90%; */
     grid-template-columns : 300px 700px;
@@ -125,7 +126,7 @@ a.icon {
     }
 
     section.left-section {
-        width: 100;
+        width: 100%;
         grid-row : 1 / 2;
         grid-column: 1 / 2;
     }
