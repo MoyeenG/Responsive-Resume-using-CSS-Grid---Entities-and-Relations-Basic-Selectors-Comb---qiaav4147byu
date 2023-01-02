@@ -10,7 +10,7 @@
 
 main.main-content {
     display : grid;
-    width: 90%;
+    /* width: 90%; */
     grid-template-columns : 300px 700px;
     min-height: 1000px;
 }
@@ -125,7 +125,7 @@ a.icon {
     }
 
     section.left-section {
-        width: 100%;
+        width: 100;
         grid-row : 1 / 2;
         grid-column: 1 / 2;
     }
