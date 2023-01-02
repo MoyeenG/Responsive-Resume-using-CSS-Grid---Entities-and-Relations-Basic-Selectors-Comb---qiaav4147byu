@@ -17,7 +17,7 @@ main.main-content {
 
 section.left-section {
     background-color: rgb(177, 107, 107);
-    max-width: 300px;
+    width: 300px;
     /* grid-column: 1 / 2; */
 }
 
@@ -131,6 +131,7 @@ a.icon {
     }
 
     section.right-section {
+        width: 100%;
        grid-row : 2 / 3;
         grid-column: 1 / 2;
     }
