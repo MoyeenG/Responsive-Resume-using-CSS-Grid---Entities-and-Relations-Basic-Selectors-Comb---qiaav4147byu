@@ -9,8 +9,8 @@
 /* Write CSS code below */
 
 main.main-content {
-    width: 90%;
     display : grid;
+    width: 90%;
     grid-template-columns : 300px 700px;
     min-height: 1000px;
 }
@@ -18,13 +18,15 @@ main.main-content {
 section.left-section {
     background-color: rgb(177, 107, 107);
     max-width: 300px;
-    grid-column: 1 / 2;
+    /* grid-column: 1 / 2; */
 }
 
 section.right-section {
-    width: 90%;
-    max-width: 700px;
-    grid-column : 2 / 3;
+    /* width: 90%; */
+    width: 700px;
+    background-color: rgb(155, 164, 138);
+    /* max-width: 700px;
+    grid-column : 2 / 3; */
 }
 
 .left-content {
@@ -123,6 +125,7 @@ a.icon {
     }
 
     section.left-section {
+        width: 100%;
         grid-row : 1 / 2;
         grid-column: 1 / 2;
     }
